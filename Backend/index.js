@@ -8,7 +8,7 @@ const bcrypt = require("bcrypt");
 const cors = require("cors");
 const dotenv = require('dotenv');
 dotenv.config();
-const dbModel = require("../Backend/dbModel.js");
+const dbModel = require("../Backend/dbmodel.js");
 
 const PORT = process.env.PORT || 3001;
 
